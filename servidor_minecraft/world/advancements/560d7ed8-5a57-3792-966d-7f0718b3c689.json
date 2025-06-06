@@ -587,5 +587,17 @@
     },
     "done": true
   },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-06-06 05:17:58 +0000"
+    },
+    "done": true
+  },
+  "create:sturdy_sheet": {
+    "criteria": {
+      "0": "2025-06-06 05:18:01 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

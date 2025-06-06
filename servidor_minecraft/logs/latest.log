@@ -646,3 +646,64 @@
 [06Jun2025 05:09:13.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> pero igual sirve
 [06Jun2025 05:10:39.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
 [06Jun2025 05:10:44.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:13:01.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:14:41.926] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Disconnected
+[06Jun2025 05:14:41.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
+[06Jun2025 05:14:41.926] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ChupetinXD
+[06Jun2025 05:14:49.226] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:45253] logged in with entity id 24262 at (-5786.899102860883, 93.28051004876635, -2098.3101265850646)
+[06Jun2025 05:14:49.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
+[06Jun2025 05:14:49.246] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
+[06Jun2025 05:14:49.642] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ChupetinXD (18)
+[06Jun2025 05:14:49.643] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ChupetinXD
+[06Jun2025 05:17:33.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:17:58.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Bonk!]
+[06Jun2025 05:19:56.627] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Disconnected
+[06Jun2025 05:19:56.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
+[06Jun2025 05:19:56.627] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ChupetinXD
+[06Jun2025 05:20:03.274] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:46911] logged in with entity id 29624 at (-5787.778837440113, 92.0, -2103.8138802835424)
+[06Jun2025 05:20:03.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
+[06Jun2025 05:20:03.295] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
+[06Jun2025 05:20:03.581] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ChupetinXD (18)
+[06Jun2025 05:20:03.581] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ChupetinXD
+[06Jun2025 05:21:26.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> duerme
+[06Jun2025 05:23:13.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> ow
+[06Jun2025 05:23:21.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> regala tu libro de efi 6
+[06Jun2025 05:23:33.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> tengo?
+[06Jun2025 05:23:39.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> si
+[06Jun2025 05:23:43.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> ten
+[06Jun2025 05:23:57.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> gracias.
+[06Jun2025 05:24:01.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> oe cierto
+[06Jun2025 05:24:05.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> no te lo recomiendo
+[06Jun2025 05:24:07.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> q
+[06Jun2025 05:24:09.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> para el pico
+[06Jun2025 05:24:10.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> joder
+[06Jun2025 05:24:14.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> ya lo puse
+[06Jun2025 05:24:15.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> pq instaminea todo
+[06Jun2025 05:24:28.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> y jode cuando quieres quitar un bloque solo
+[06Jun2025 05:24:35.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> pq puedes acabar rompiendo media pared
+[06Jun2025 05:25:05.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> en deepstone
+[06Jun2025 05:25:09.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> no instaminea
+[06Jun2025 05:25:17.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> tu casa será de deepstone p
+[06Jun2025 05:25:19.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> baboso
+[06Jun2025 05:25:26.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> tendre casa ps oe
+[06Jun2025 05:25:30.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> JAJAAJA
+[06Jun2025 05:25:41.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> siempre un paso adelante
+[06Jun2025 05:28:42.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:28:47.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:29:01.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> q rico instaminea
+[06Jun2025 05:29:31.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:30:01.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:30:15.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:30:25.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:30:27.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> oe mira
+[06Jun2025 05:30:55.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> una basura completa
+[06Jun2025 05:31:13.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> masomenos sirve
+[06Jun2025 05:31:16.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> seh
+[06Jun2025 05:31:18.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> ahi va
+[06Jun2025 05:31:26.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> aunq con el jetpack pierde su uso
+[06Jun2025 05:31:29.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> facil t haces tu mochila de araña
+[06Jun2025 05:31:32.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> si
+[06Jun2025 05:31:39.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> oevamos al end d una vez
+[06Jun2025 05:31:54.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> yaya
+[06Jun2025 05:32:01.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> perate me equipo bien
+[06Jun2025 05:32:05.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> yo tmb
