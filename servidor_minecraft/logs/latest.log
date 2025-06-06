@@ -567,3 +567,9 @@
 [06Jun2025 04:12:34.250] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ChupetinXD (18)
 [06Jun2025 04:12:34.251] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ChupetinXD
 [06Jun2025 04:12:34.313] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6165ms or 123 ticks behind
+[06Jun2025 04:21:32.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Spectator Mode]
+[06Jun2025 04:21:35.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 04:23:43.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Spectator Mode]
+[06Jun2025 04:24:09.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 04:28:27.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Spectator Mode]
+[06Jun2025 04:28:54.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
