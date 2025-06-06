@@ -12129,3 +12129,37 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [06Jun2025 04:59:47.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> oe
 [06Jun2025 04:59:53.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorgepwe moved wrongly!
 [06Jun2025 05:00:07.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> eres muy bueno
+[06Jun2025 05:02:09.890] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 05:02:09.902] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jun2025 05:02:28.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:03:14.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:05:40.245] [Server thread/DEBUG] [mixin/]: Mixing contraption.ContainerLevelAccessMixin from create_connected.mixins.json into net.minecraft.world.inventory.ContainerLevelAccess
+[06Jun2025 05:05:40.245] [Server thread/DEBUG] [mixin/]: create_connected.mixins.json:contraption.ContainerLevelAccessMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[06Jun2025 05:05:40.247] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/inventory/ContainerLevelAccess$Anonymous$2fb1ebf821f1461d97452f1884a250d4 (originally com/hlysine/create_connected/mixin/contraption/ContainerLevelAccessMixin$1)
+[06Jun2025 05:06:21.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> oe ya ps
+[06Jun2025 05:06:31.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> q
+[06Jun2025 05:06:32.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> haste un horno industrial
+[06Jun2025 05:06:38.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> perate p
+[06Jun2025 05:06:49.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> quiero hacer esta wbd pero no me sale el crafteo
+[06Jun2025 05:07:01.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> esta bien
+[06Jun2025 05:07:09.889] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 05:07:09.901] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jun2025 05:07:18.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> oe pero has puesto bien la direccion de esas wbds?
+[06Jun2025 05:07:32.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:07:39.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 05:07:51.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> esa es carajo
+[06Jun2025 05:07:54.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> checa
+[06Jun2025 05:08:02.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> a ver
+[06Jun2025 05:08:16.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> joder
+[06Jun2025 05:08:21.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> una batidora de mano
+[06Jun2025 05:08:27.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> es un gancho oe
+[06Jun2025 05:08:30.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> JJAJA
+[06Jun2025 05:08:34.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> JAJAJAJ
+[06Jun2025 05:08:35.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> toma
+[06Jun2025 05:09:04.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> y esto
+[06Jun2025 05:09:05.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> se usan en las otras herramientas XDXD
+[06Jun2025 05:09:13.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> pero igual sirve
+[06Jun2025 05:10:31.487] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of etched:village/taiga/houses/taiga_bard_house_1
+[06Jun2025 05:10:39.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 05:10:43.131] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:ruins/tower_ruin_1
+[06Jun2025 05:10:44.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
