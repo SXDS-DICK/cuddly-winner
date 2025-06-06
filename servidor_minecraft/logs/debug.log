@@ -11932,3 +11932,53 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [06Jun2025 02:43:30.478] [Server thread/DEBUG] [mixin/]: create_connected.mixins.json:contraption.ContainerLevelAccessMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
 [06Jun2025 02:43:30.481] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/inventory/ContainerLevelAccess$Anonymous$b4e8f3ca970349fe9d3c506bdd71dec6 (originally com/hlysine/create_connected/mixin/contraption/ContainerLevelAccessMixin$1)
 [06Jun2025 02:43:32.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 02:44:09.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 02:44:19.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 02:44:55.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 02:45:49.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> bro
+[06Jun2025 02:45:58.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> agarrare bastante xp
+[06Jun2025 02:46:02.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> si normal
+[06Jun2025 02:46:05.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> chapa toda
+[06Jun2025 02:46:38.693] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 02:46:38.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jun2025 02:46:40.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> me piden 30 niveles para fortuna 4
+[06Jun2025 02:46:47.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Limit Breaker]
+[06Jun2025 02:46:49.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> q rico
+[06Jun2025 02:50:01.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 02:50:23.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> oe tienes algun libro con filo 5?
+[06Jun2025 02:50:26.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> nd
+[06Jun2025 02:51:00.624] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of Jorgepwe: {disabled=false, disconnected=true, uuid=d5cb90a3-5321-3e9b-8658-6318f3bddd1a, name=Jorgepwe, group=null}
+[06Jun2025 02:51:06.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Cover Me with Diamonds]
+[06Jun2025 02:51:38.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 02:51:38.716] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jun2025 02:51:40.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> ire a conseguir mucho materialw
+[06Jun2025 02:51:44.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ChupetinXD> okok
+[06Jun2025 02:52:01.921] [Worker-Main-27/DEBUG] [mixin/]: Mixing world.WorldGenRegionAccessor from repurposed_structures-common.mixins.json into net.minecraft.server.level.WorldGenRegion
+[06Jun2025 02:52:02.032] [Worker-Main-26/DEBUG] [mixin/]: Mixing ChainedBlockSourceMixin from noisium-common.mixins.json into net.minecraft.world.level.levelgen.material.MaterialRuleList
+[06Jun2025 02:52:02.882] [Worker-Main-26/DEBUG] [mixin/]: Mixing BeardifierMixin from valhelsia_structures.mixins.json into net.minecraft.world.level.levelgen.Beardifier
+[06Jun2025 02:52:07.991] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:underground/smallminingoutpost
+[06Jun2025 02:52:08.170] [Worker-Main-27/DEBUG] [mixin/]: Mixing ChunkGeneratorMixin from quark.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement
+[06Jun2025 02:52:18.809] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/cave_entrance/small_3
+[06Jun2025 02:52:18.811] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/cave_entrance/small_3_bottom
+[06Jun2025 02:52:18.813] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/cave/cave_2
+[06Jun2025 02:52:18.815] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/entrance/entrance_1
+[06Jun2025 02:52:18.820] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/main_room/main_room_3
+[06Jun2025 02:52:18.824] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/stairs/stairs_2
+[06Jun2025 02:52:18.824] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/passage/passage_3
+[06Jun2025 02:52:18.827] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/side_room/side_room_3
+[06Jun2025 02:52:18.829] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:spawner_dungeon/spawner_room/zombie_spawner_room
+[06Jun2025 02:53:20.268] [Worker-Main-25/DEBUG] [mixin/]: Mixing JigsawPlacementPlacerMixin from waystones.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer
+[06Jun2025 02:53:28.378] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:ruins/tower_ruin_3
+[06Jun2025 02:53:28.382] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:mobs/pillager_with_sword_1
+[06Jun2025 02:53:28.382] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:mobs/pillager_with_crossbow_1
+[06Jun2025 02:53:36.883] [Worker-Main-66/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:furnished/desert_house/desert_house
+[06Jun2025 02:53:48.318] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of etched:village/plains/houses/plains_bard_house_1
+[06Jun2025 02:53:48.439] [Worker-Main-66/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior2
+[06Jun2025 02:53:48.518] [Worker-Main-66/DEBUG] [ModernFix/]: Using cached upgraded version of create_easy_structures:camp_2
+[06Jun2025 02:54:47.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 02:55:20.311] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of valhelsia_structures:mobs/villagers/villager_stal
+[06Jun2025 02:56:38.721] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 02:56:38.733] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jun2025 02:59:20.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 03:01:38.723] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jun2025 03:01:38.734] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
