@@ -573,3 +573,16 @@
 [06Jun2025 04:24:09.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
 [06Jun2025 04:28:27.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Spectator Mode]
 [06Jun2025 04:28:54.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 04:34:45.512] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Disconnected
+[06Jun2025 04:34:45.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
+[06Jun2025 04:34:45.516] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ChupetinXD
+[06Jun2025 04:34:45.555] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Jun2025 04:34:57.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:59435] logged in with entity id 6207 at (-5787.1666808252, 88.45604663572168, -2110.6907021898537)
+[06Jun2025 04:34:57.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
+[06Jun2025 04:34:57.394] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
+[06Jun2025 04:34:57.829] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ChupetinXD (18)
+[06Jun2025 04:34:57.830] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ChupetinXD
+[06Jun2025 04:38:33.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 04:40:28.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[06Jun2025 04:47:47.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[06Jun2025 04:47:50.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
