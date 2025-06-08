@@ -1,322 +1,323 @@
-[08Jun2025 00:29:37.645] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[08Jun2025 00:29:37.652] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[08Jun2025 00:29:40.661] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08Jun2025 00:29:40.739] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cuddly-winner/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[08Jun2025 00:29:41.171] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[08Jun2025 00:29:41.173] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Jun2025 00:29:41.175] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Jun2025 00:29:41.176] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Jun2025 00:29:42.272] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[08Jun2025 00:29:42.274] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 33 dependencies adding them to mods collection
-[08Jun2025 00:29:42.765] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
-[08Jun2025 00:29:42.787] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
-[08Jun2025 00:29:42.801] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
-[08Jun2025 00:29:42.810] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/cuddly-winner/servidor_minecraft/mods/scripts as it did not exist.
-[08Jun2025 00:29:42.821] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
-[08Jun2025 00:29:46.766] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 3757ms
-[08Jun2025 00:29:46.768] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
-[08Jun2025 00:29:47.946] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Jun2025 00:29:48.048] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
-[08Jun2025 00:29:48.269] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[08Jun2025 00:29:48.271] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[08Jun2025 00:29:48.274] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[08Jun2025 00:29:48.416] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 0 override(s) found
-[08Jun2025 00:29:48.420] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[08Jun2025 00:29:48.472] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[08Jun2025 00:29:48.590] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Jun2025 00:29:48.599] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 131 options available, 0 override(s) found
-[08Jun2025 00:29:48.699] [main/WARN] [mixin/]: Reference map 'ametrin.mixin.refmap.json' for ametrin.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Jun2025 00:29:48.723] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Jun2025 00:29:48.859] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Jun2025 00:29:50.160] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[08Jun2025 00:29:50.160] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[08Jun2025 00:29:50.164] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[08Jun2025 00:29:50.164] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[08Jun2025 00:29:50.200] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[08Jun2025 00:29:50.760] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[08Jun2025 00:29:50.761] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[08Jun2025 00:29:50.762] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
-[08Jun2025 00:29:51.333] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[08Jun2025 00:29:51.816] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[08Jun2025 00:29:52.596] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.38 s after launch)
-[08Jun2025 00:29:52.810] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[08Jun2025 00:29:52.812] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[08Jun2025 00:29:52.979] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[08Jun2025 00:29:52.981] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[08Jun2025 00:29:56.261] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3661 milliseconds
-[08Jun2025 00:30:01.674] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
-[08Jun2025 00:30:02.331] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
-[08Jun2025 00:30:02.454] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[08Jun2025 00:30:02.455] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[08Jun2025 00:30:02.586] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[08Jun2025 00:30:02.586] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[08Jun2025 00:30:02.632] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[08Jun2025 00:30:04.176] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.11
-[08Jun2025 00:30:04.667] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
-[08Jun2025 00:30:04.915] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
-[08Jun2025 00:30:05.284] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[08Jun2025 00:30:05.298] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
-[08Jun2025 00:30:05.744] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[08Jun2025 00:30:05.774] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
-[08Jun2025 00:30:05.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
-[08Jun2025 00:30:05.787] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
-[08Jun2025 00:30:05.788] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
-[08Jun2025 00:30:05.793] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
-[08Jun2025 00:30:05.815] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
-[08Jun2025 00:30:05.845] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
-[08Jun2025 00:30:05.848] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
-[08Jun2025 00:30:05.848] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
-[08Jun2025 00:30:05.849] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
-[08Jun2025 00:30:05.853] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
-[08Jun2025 00:30:05.858] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
-[08Jun2025 00:30:05.858] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
-[08Jun2025 00:30:05.878] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
-[08Jun2025 00:30:05.885] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
-[08Jun2025 00:30:05.886] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
-[08Jun2025 00:30:05.900] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
-[08Jun2025 00:30:05.903] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
-[08Jun2025 00:30:05.907] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
-[08Jun2025 00:30:05.909] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
-[08Jun2025 00:30:05.919] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
-[08Jun2025 00:30:05.919] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
-[08Jun2025 00:30:05.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
-[08Jun2025 00:30:05.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
-[08Jun2025 00:30:05.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
-[08Jun2025 00:30:05.938] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
-[08Jun2025 00:30:05.944] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
-[08Jun2025 00:30:05.948] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
-[08Jun2025 00:30:05.951] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
-[08Jun2025 00:30:05.963] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
-[08Jun2025 00:30:05.964] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
-[08Jun2025 00:30:05.964] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
-[08Jun2025 00:30:06.036] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
-[08Jun2025 00:30:06.044] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.044] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
-[08Jun2025 00:30:06.055] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.055] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
-[08Jun2025 00:30:06.056] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
-[08Jun2025 00:30:06.057] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
-[08Jun2025 00:30:06.057] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
-[08Jun2025 00:30:06.062] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
-[08Jun2025 00:30:06.063] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
-[08Jun2025 00:30:06.067] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
-[08Jun2025 00:30:06.071] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
-[08Jun2025 00:30:06.071] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
-[08Jun2025 00:30:06.071] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
-[08Jun2025 00:30:06.074] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
-[08Jun2025 00:30:06.074] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
-[08Jun2025 00:30:06.074] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
-[08Jun2025 00:30:06.075] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
-[08Jun2025 00:30:06.076] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
-[08Jun2025 00:30:06.084] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
-[08Jun2025 00:30:06.084] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.085] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
-[08Jun2025 00:30:06.090] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
-[08Jun2025 00:30:06.092] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
-[08Jun2025 00:30:06.099] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.100] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
-[08Jun2025 00:30:06.115] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
-[08Jun2025 00:30:06.117] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
-[08Jun2025 00:30:06.117] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
-[08Jun2025 00:30:06.118] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
-[08Jun2025 00:30:06.139] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
-[08Jun2025 00:30:06.141] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
-[08Jun2025 00:30:06.159] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
-[08Jun2025 00:30:06.162] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
-[08Jun2025 00:30:06.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
-[08Jun2025 00:30:06.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
-[08Jun2025 00:30:06.175] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
-[08Jun2025 00:30:06.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
-[08Jun2025 00:30:06.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
-[08Jun2025 00:30:06.193] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
-[08Jun2025 00:30:06.197] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
-[08Jun2025 00:30:06.202] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
-[08Jun2025 00:30:06.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
-[08Jun2025 00:30:06.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
-[08Jun2025 00:30:06.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
-[08Jun2025 00:30:06.204] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
-[08Jun2025 00:30:06.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
-[08Jun2025 00:30:06.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
-[08Jun2025 00:30:06.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
-[08Jun2025 00:30:06.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
-[08Jun2025 00:30:06.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
-[08Jun2025 00:30:06.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
-[08Jun2025 00:30:06.247] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
-[08Jun2025 00:30:06.248] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
-[08Jun2025 00:30:06.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
-[08Jun2025 00:30:06.252] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.252] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
-[08Jun2025 00:30:06.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
-[08Jun2025 00:30:06.268] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
-[08Jun2025 00:30:06.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
-[08Jun2025 00:30:06.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
-[08Jun2025 00:30:06.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
-[08Jun2025 00:30:06.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
-[08Jun2025 00:30:06.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
-[08Jun2025 00:30:06.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
-[08Jun2025 00:30:06.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
-[08Jun2025 00:30:06.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
-[08Jun2025 00:30:06.281] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
-[08Jun2025 00:30:06.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
-[08Jun2025 00:30:06.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
-[08Jun2025 00:30:06.285] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
-[08Jun2025 00:30:06.286] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
-[08Jun2025 00:30:06.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
-[08Jun2025 00:30:06.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
-[08Jun2025 00:30:06.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
-[08Jun2025 00:30:06.299] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
-[08Jun2025 00:30:06.299] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
-[08Jun2025 00:30:06.300] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
-[08Jun2025 00:30:06.303] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
-[08Jun2025 00:30:06.309] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
-[08Jun2025 00:30:06.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
-[08Jun2025 00:30:06.317] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
-[08Jun2025 00:30:06.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
-[08Jun2025 00:30:06.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
-[08Jun2025 00:30:06.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
-[08Jun2025 00:30:06.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
-[08Jun2025 00:30:06.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
-[08Jun2025 00:30:06.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
-[08Jun2025 00:30:06.336] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
-[08Jun2025 00:30:06.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
-[08Jun2025 00:30:06.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
-[08Jun2025 00:30:06.339] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
-[08Jun2025 00:30:06.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
-[08Jun2025 00:30:06.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
-[08Jun2025 00:30:06.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
-[08Jun2025 00:30:06.348] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
-[08Jun2025 00:30:06.358] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
-[08Jun2025 00:30:06.374] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
-[08Jun2025 00:30:06.375] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.375] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
-[08Jun2025 00:30:06.376] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
-[08Jun2025 00:30:06.376] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
-[08Jun2025 00:30:06.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
-[08Jun2025 00:30:06.382] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.384] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
-[08Jun2025 00:30:06.384] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
-[08Jun2025 00:30:06.388] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
-[08Jun2025 00:30:06.389] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
-[08Jun2025 00:30:06.396] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
-[08Jun2025 00:30:06.396] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
-[08Jun2025 00:30:06.397] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
-[08Jun2025 00:30:06.397] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
-[08Jun2025 00:30:06.402] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
-[08Jun2025 00:30:06.404] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.408] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
-[08Jun2025 00:30:06.408] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.408] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
-[08Jun2025 00:30:06.411] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
-[08Jun2025 00:30:06.419] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
-[08Jun2025 00:30:06.421] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
-[08Jun2025 00:30:06.428] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
-[08Jun2025 00:30:06.431] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.434] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
-[08Jun2025 00:30:06.435] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
-[08Jun2025 00:30:06.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
-[08Jun2025 00:30:06.474] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
-[08Jun2025 00:30:06.474] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
-[08Jun2025 00:30:06.475] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
-[08Jun2025 00:30:06.475] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
-[08Jun2025 00:30:06.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
-[08Jun2025 00:30:06.499] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
-[08Jun2025 00:30:06.510] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
-[08Jun2025 00:30:06.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
-[08Jun2025 00:30:06.514] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
-[08Jun2025 00:30:06.515] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
-[08Jun2025 00:30:06.533] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
-[08Jun2025 00:30:06.534] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
-[08Jun2025 00:30:06.534] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
-[08Jun2025 00:30:06.534] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
-[08Jun2025 00:30:06.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
-[08Jun2025 00:30:06.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
-[08Jun2025 00:30:06.542] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[08Jun2025 00:30:06.542] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
-[08Jun2025 00:30:06.547] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
-[08Jun2025 00:30:06.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
-[08Jun2025 00:30:10.942] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:red_maple
-[08Jun2025 00:30:10.942] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:orange_maple
-[08Jun2025 00:30:10.942] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:yellow_maple
-[08Jun2025 00:30:10.954] [main/INFO] [Moonlight/]: Initialized block sets in 28ms
-[08Jun2025 00:30:11.477] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
-[08Jun2025 00:30:12.163] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[08Jun2025 00:30:12.181] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[08Jun2025 00:30:12.182] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[08Jun2025 00:30:12.185] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[08Jun2025 00:30:12.671] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
-[08Jun2025 00:30:12.852] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[08Jun2025 00:30:12.918] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[08Jun2025 00:30:13.002] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[08Jun2025 00:30:13.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
-[08Jun2025 00:30:13.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
-[08Jun2025 00:30:13.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
-[08Jun2025 00:30:13.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
-[08Jun2025 00:30:13.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.2.2 Target: null
-[08Jun2025 00:30:13.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[08Jun2025 00:30:14.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.13
-[08Jun2025 00:30:14.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Jun2025 00:30:14.065] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[08Jun2025 00:30:14.066] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[08Jun2025 00:30:14.067] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[08Jun2025 00:30:14.067] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[08Jun2025 00:30:14.193] [main/INFO] [Moonlight/]: Initialized color sets in 75ms
-[08Jun2025 00:30:14.201] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[08Jun2025 00:30:14.202] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[08Jun2025 00:30:14.202] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[08Jun2025 00:30:14.202] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[08Jun2025 00:30:14.202] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[08Jun2025 00:30:14.203] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[08Jun2025 00:30:14.203] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[08Jun2025 00:30:14.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[08Jun2025 00:30:14.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
-[08Jun2025 00:30:14.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.14 Target: null
-[08Jun2025 00:30:14.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[08Jun2025 00:30:14.368] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 4 for type OVERWORLD
-[08Jun2025 00:30:14.413] [main/INFO] [Supplementaries/]: Finished mod setup in: [1, 3, 0, 1, 0, 0, 13, 7, 2] ms
-[08Jun2025 00:30:14.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[08Jun2025 00:30:14.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[08Jun2025 00:30:14.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[08Jun2025 00:30:14.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[08Jun2025 00:30:14.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 1.1.3-mc1.20.1 Target: null
-[08Jun2025 00:30:14.732] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[08Jun2025 00:30:14.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[08Jun2025 00:30:14.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.82 Target: null
-[08Jun2025 00:30:14.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
-[08Jun2025 00:30:14.890] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[08Jun2025 00:30:14.906] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[08Jun2025 00:30:14.908] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[08Jun2025 00:30:14.909] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[08Jun2025 00:30:14.921] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[08Jun2025 00:30:14.924] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[08Jun2025 00:30:14.925] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[08Jun2025 00:30:14.925] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[08Jun2025 00:30:15.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.11 Target: null
-[08Jun2025 00:30:15.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
-[08Jun2025 00:30:15.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.4.1 Target: 5.4.2
-[08Jun2025 00:30:15.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[08Jun2025 00:30:15.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.4 Target: 8.9.5
-[08Jun2025 00:30:15.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[08Jun2025 00:30:15.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.30 Target: null
-[08Jun2025 00:30:15.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
-[08Jun2025 00:30:15.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
-[08Jun2025 00:30:15.842] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Jun2025 00:30:16.176] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[08Jun2025 00:30:16.804] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/assets/.mcassetsroot' uses unexpected schema
-[08Jun2025 00:30:16.804] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/data/.mcassetsroot' uses unexpected schema
-[08Jun2025 00:30:16.938] [main/INFO] [com.simibubi.create.Create/]: Created 419 recipes which will be injected into the game
-[08Jun2025 00:30:16.950] [main/INFO] [com.simibubi.create.Create/]: Created 6 tags which will be injected into the game
-[08Jun2025 00:30:17.158] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 79 ms
-[08Jun2025 00:30:21.734] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag idas:has_structure/byg_redwood_biomes as it is missing following references: byg:redwood_thicket (from idas_forge-1.11.1+1.20.1.jar)
-[08Jun2025 00:30:21.740] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag idas:has_structure/bygmohogany_biomes as it is missing following references: byg:tropical_rainforest (from idas_forge-1.11.1+1.20.1.jar)
-[08Jun2025 00:30:21.786] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:tipped_spikes_blacklist as it is missing following references: minecraft:oozing (from supplementaries-1.20-3.1.30.jar), 
+[08Jun2025 01:50:40.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[08Jun2025 01:50:40.494] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[08Jun2025 01:50:43.299] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Jun2025 01:50:43.370] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cuddly-winner/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Jun2025 01:50:43.772] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jun2025 01:50:43.774] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jun2025 01:50:43.775] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jun2025 01:50:43.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jun2025 01:50:44.939] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[08Jun2025 01:50:44.941] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 33 dependencies adding them to mods collection
+[08Jun2025 01:50:45.487] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[08Jun2025 01:50:45.512] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[08Jun2025 01:50:45.534] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[08Jun2025 01:50:45.548] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/cuddly-winner/servidor_minecraft/mods/scripts as it did not exist.
+[08Jun2025 01:50:45.557] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[08Jun2025 01:50:49.249] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 3458ms
+[08Jun2025 01:50:49.252] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[08Jun2025 01:50:50.146] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Jun2025 01:50:50.251] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[08Jun2025 01:50:50.450] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[08Jun2025 01:50:50.454] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[08Jun2025 01:50:50.458] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[08Jun2025 01:50:50.622] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 0 override(s) found
+[08Jun2025 01:50:50.623] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[08Jun2025 01:50:50.651] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[08Jun2025 01:50:50.760] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Jun2025 01:50:50.776] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 131 options available, 0 override(s) found
+[08Jun2025 01:50:50.910] [main/WARN] [mixin/]: Reference map 'ametrin.mixin.refmap.json' for ametrin.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Jun2025 01:50:50.942] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Jun2025 01:50:51.038] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Jun2025 01:50:52.416] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[08Jun2025 01:50:52.417] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[08Jun2025 01:50:52.420] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[08Jun2025 01:50:52.420] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[08Jun2025 01:50:52.458] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[08Jun2025 01:50:52.845] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[08Jun2025 01:50:52.846] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[08Jun2025 01:50:52.846] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
+[08Jun2025 01:50:53.252] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[08Jun2025 01:50:53.646] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[08Jun2025 01:50:54.668] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.17 s after launch)
+[08Jun2025 01:50:55.156] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[08Jun2025 01:50:55.158] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[08Jun2025 01:50:55.325] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[08Jun2025 01:50:55.325] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[08Jun2025 01:50:58.603] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3928 milliseconds
+[08Jun2025 01:51:03.884] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[08Jun2025 01:51:04.839] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[08Jun2025 01:51:04.957] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[08Jun2025 01:51:04.957] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[08Jun2025 01:51:05.050] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[08Jun2025 01:51:05.050] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[08Jun2025 01:51:05.072] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[08Jun2025 01:51:06.771] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.11
+[08Jun2025 01:51:07.349] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[08Jun2025 01:51:07.692] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[08Jun2025 01:51:08.068] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Jun2025 01:51:08.106] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[08Jun2025 01:51:08.674] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[08Jun2025 01:51:08.674] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[08Jun2025 01:51:08.689] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[08Jun2025 01:51:08.691] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[08Jun2025 01:51:08.694] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[08Jun2025 01:51:08.722] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[08Jun2025 01:51:08.756] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[08Jun2025 01:51:08.756] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[08Jun2025 01:51:08.759] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[08Jun2025 01:51:08.759] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[08Jun2025 01:51:08.762] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[08Jun2025 01:51:08.766] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[08Jun2025 01:51:08.766] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[08Jun2025 01:51:08.776] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[08Jun2025 01:51:08.779] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[08Jun2025 01:51:08.789] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[08Jun2025 01:51:08.790] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[08Jun2025 01:51:08.810] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[08Jun2025 01:51:08.812] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[08Jun2025 01:51:08.822] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[08Jun2025 01:51:08.830] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[08Jun2025 01:51:08.835] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[08Jun2025 01:51:08.836] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[08Jun2025 01:51:08.836] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[08Jun2025 01:51:08.836] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[08Jun2025 01:51:08.836] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[08Jun2025 01:51:08.839] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[08Jun2025 01:51:08.843] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[08Jun2025 01:51:08.845] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[08Jun2025 01:51:08.852] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[08Jun2025 01:51:08.857] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[08Jun2025 01:51:08.858] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[08Jun2025 01:51:08.858] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[08Jun2025 01:51:09.416] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[08Jun2025 01:51:09.421] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.421] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[08Jun2025 01:51:09.425] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.426] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[08Jun2025 01:51:09.428] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[08Jun2025 01:51:09.430] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[08Jun2025 01:51:09.431] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[08Jun2025 01:51:09.436] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[08Jun2025 01:51:09.436] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[08Jun2025 01:51:09.437] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[08Jun2025 01:51:09.443] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[08Jun2025 01:51:09.449] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[08Jun2025 01:51:09.449] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[08Jun2025 01:51:09.449] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[08Jun2025 01:51:09.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[08Jun2025 01:51:09.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[08Jun2025 01:51:09.455] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[08Jun2025 01:51:09.460] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[08Jun2025 01:51:09.466] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[08Jun2025 01:51:09.469] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.469] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[08Jun2025 01:51:09.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[08Jun2025 01:51:09.476] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[08Jun2025 01:51:09.478] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[08Jun2025 01:51:09.494] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[08Jun2025 01:51:09.495] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[08Jun2025 01:51:09.495] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[08Jun2025 01:51:09.496] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[08Jun2025 01:51:09.513] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.521] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[08Jun2025 01:51:09.522] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[08Jun2025 01:51:09.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[08Jun2025 01:51:09.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[08Jun2025 01:51:09.563] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[08Jun2025 01:51:09.563] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[08Jun2025 01:51:09.569] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[08Jun2025 01:51:09.570] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[08Jun2025 01:51:09.572] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[08Jun2025 01:51:09.574] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[08Jun2025 01:51:09.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[08Jun2025 01:51:09.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[08Jun2025 01:51:09.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[08Jun2025 01:51:09.577] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[08Jun2025 01:51:09.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[08Jun2025 01:51:09.579] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[08Jun2025 01:51:09.580] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[08Jun2025 01:51:09.580] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[08Jun2025 01:51:09.591] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[08Jun2025 01:51:09.592] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[08Jun2025 01:51:09.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[08Jun2025 01:51:09.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[08Jun2025 01:51:09.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[08Jun2025 01:51:09.594] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[08Jun2025 01:51:09.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[08Jun2025 01:51:09.604] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.604] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[08Jun2025 01:51:09.605] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[08Jun2025 01:51:09.645] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[08Jun2025 01:51:09.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[08Jun2025 01:51:09.656] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[08Jun2025 01:51:09.656] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[08Jun2025 01:51:09.657] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[08Jun2025 01:51:09.663] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[08Jun2025 01:51:09.664] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[08Jun2025 01:51:09.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[08Jun2025 01:51:09.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[08Jun2025 01:51:09.669] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.669] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[08Jun2025 01:51:09.669] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[08Jun2025 01:51:09.670] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[08Jun2025 01:51:09.676] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[08Jun2025 01:51:09.678] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[08Jun2025 01:51:09.690] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[08Jun2025 01:51:09.693] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[08Jun2025 01:51:09.693] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[08Jun2025 01:51:09.696] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[08Jun2025 01:51:09.697] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[08Jun2025 01:51:09.701] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.701] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[08Jun2025 01:51:09.711] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[08Jun2025 01:51:09.712] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[08Jun2025 01:51:09.713] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[08Jun2025 01:51:09.714] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[08Jun2025 01:51:09.716] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[08Jun2025 01:51:09.716] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[08Jun2025 01:51:09.719] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[08Jun2025 01:51:09.720] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[08Jun2025 01:51:09.720] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[08Jun2025 01:51:09.724] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[08Jun2025 01:51:09.724] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[08Jun2025 01:51:09.725] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[08Jun2025 01:51:09.725] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[08Jun2025 01:51:09.727] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[08Jun2025 01:51:09.728] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[08Jun2025 01:51:09.728] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[08Jun2025 01:51:09.733] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[08Jun2025 01:51:09.734] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[08Jun2025 01:51:09.738] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[08Jun2025 01:51:09.750] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[08Jun2025 01:51:09.750] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.750] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[08Jun2025 01:51:09.751] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[08Jun2025 01:51:09.751] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[08Jun2025 01:51:09.765] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[08Jun2025 01:51:09.767] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.767] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[08Jun2025 01:51:09.771] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[08Jun2025 01:51:09.772] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[08Jun2025 01:51:09.773] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[08Jun2025 01:51:09.774] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[08Jun2025 01:51:09.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[08Jun2025 01:51:09.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[08Jun2025 01:51:09.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[08Jun2025 01:51:09.777] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[08Jun2025 01:51:09.780] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.781] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[08Jun2025 01:51:09.781] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.782] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[08Jun2025 01:51:09.783] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[08Jun2025 01:51:09.784] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[08Jun2025 01:51:09.785] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[08Jun2025 01:51:09.786] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[08Jun2025 01:51:09.788] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.788] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[08Jun2025 01:51:09.790] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[08Jun2025 01:51:09.791] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[08Jun2025 01:51:09.791] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[08Jun2025 01:51:09.792] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[08Jun2025 01:51:09.793] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[08Jun2025 01:51:09.793] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[08Jun2025 01:51:09.793] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[08Jun2025 01:51:09.811] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[08Jun2025 01:51:09.836] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[08Jun2025 01:51:09.837] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[08Jun2025 01:51:09.846] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[08Jun2025 01:51:09.848] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[08Jun2025 01:51:09.867] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[08Jun2025 01:51:09.871] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[08Jun2025 01:51:09.871] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[08Jun2025 01:51:09.871] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[08Jun2025 01:51:09.876] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[08Jun2025 01:51:09.877] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[08Jun2025 01:51:09.881] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[08Jun2025 01:51:09.881] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[08Jun2025 01:51:09.881] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[08Jun2025 01:51:09.882] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[08Jun2025 01:51:10.011] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/cuddly-winner/servidor_minecraft/config/quark-common.toml is not correct. Correcting
+[08Jun2025 01:51:13.950] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:red_maple
+[08Jun2025 01:51:13.950] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:orange_maple
+[08Jun2025 01:51:13.950] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:yellow_maple
+[08Jun2025 01:51:13.962] [main/INFO] [Moonlight/]: Initialized block sets in 24ms
+[08Jun2025 01:51:14.372] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
+[08Jun2025 01:51:14.879] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[08Jun2025 01:51:14.891] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[08Jun2025 01:51:14.892] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[08Jun2025 01:51:14.893] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[08Jun2025 01:51:15.288] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[08Jun2025 01:51:15.490] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[08Jun2025 01:51:15.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[08Jun2025 01:51:15.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
+[08Jun2025 01:51:15.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
+[08Jun2025 01:51:15.651] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[08Jun2025 01:51:15.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
+[08Jun2025 01:51:15.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[08Jun2025 01:51:15.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.2.2 Target: null
+[08Jun2025 01:51:15.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[08Jun2025 01:51:16.103] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[08Jun2025 01:51:16.103] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[08Jun2025 01:51:16.104] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[08Jun2025 01:51:16.104] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[08Jun2025 01:51:16.193] [main/INFO] [Moonlight/]: Initialized color sets in 48ms
+[08Jun2025 01:51:16.197] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[08Jun2025 01:51:16.198] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[08Jun2025 01:51:16.382] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 4 for type OVERWORLD
+[08Jun2025 01:51:16.416] [main/INFO] [Supplementaries/]: Finished mod setup in: [1, 2, 0, 1, 0, 0, 15, 7, 1] ms
+[08Jun2025 01:51:16.503] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.13
+[08Jun2025 01:51:16.503] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Jun2025 01:51:16.716] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[08Jun2025 01:51:16.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[08Jun2025 01:51:16.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[08Jun2025 01:51:16.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.14 Target: null
+[08Jun2025 01:51:16.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[08Jun2025 01:51:16.868] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[08Jun2025 01:51:16.881] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[08Jun2025 01:51:16.882] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[08Jun2025 01:51:16.882] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[08Jun2025 01:51:16.895] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[08Jun2025 01:51:16.899] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[08Jun2025 01:51:16.901] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[08Jun2025 01:51:16.903] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[08Jun2025 01:51:16.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[08Jun2025 01:51:16.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[08Jun2025 01:51:17.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[08Jun2025 01:51:17.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[08Jun2025 01:51:17.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 1.1.3-mc1.20.1 Target: null
+[08Jun2025 01:51:17.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[08Jun2025 01:51:17.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.82 Target: null
+[08Jun2025 01:51:17.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[08Jun2025 01:51:17.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.11 Target: null
+[08Jun2025 01:51:17.702] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[08Jun2025 01:51:17.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.4.1 Target: 5.4.2
+[08Jun2025 01:51:17.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[08Jun2025 01:51:17.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.4 Target: 8.9.5
+[08Jun2025 01:51:17.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[08Jun2025 01:51:17.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.30 Target: null
+[08Jun2025 01:51:17.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
+[08Jun2025 01:51:17.764] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Jun2025 01:51:17.890] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[08Jun2025 01:51:17.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
+[08Jun2025 01:51:18.479] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/assets/.mcassetsroot' uses unexpected schema
+[08Jun2025 01:51:18.479] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cuddly-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/data/.mcassetsroot' uses unexpected schema
+[08Jun2025 01:51:18.612] [main/INFO] [com.simibubi.create.Create/]: Created 419 recipes which will be injected into the game
+[08Jun2025 01:51:18.623] [main/INFO] [com.simibubi.create.Create/]: Created 6 tags which will be injected into the game
+[08Jun2025 01:51:18.877] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 85 ms
+[08Jun2025 01:51:23.426] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag idas:has_structure/byg_redwood_biomes as it is missing following references: byg:redwood_thicket (from idas_forge-1.11.1+1.20.1.jar)
+[08Jun2025 01:51:23.430] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag idas:has_structure/bygmohogany_biomes as it is missing following references: byg:tropical_rainforest (from idas_forge-1.11.1+1.20.1.jar)
+[08Jun2025 01:51:23.609] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.14.jar)
+[08Jun2025 01:51:23.625] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.14.jar)
+[08Jun2025 01:51:23.728] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:tipped_spikes_blacklist as it is missing following references: minecraft:oozing (from supplementaries-1.20-3.1.30.jar), 
 	minecraft:infested (from supplementaries-1.20-3.1.30.jar)
-[08Jun2025 00:30:21.900] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.14.jar)
-[08Jun2025 00:30:21.915] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.14.jar)
-[08Jun2025 00:30:22.405] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file hyperremaster:bone_cata_recipe from hyperremaster:recipes/bone_cata_recipe.json
+[08Jun2025 01:51:24.326] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file hyperremaster:bone_cata_recipe from hyperremaster:recipes/bone_cata_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
@@ -342,7 +343,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	... 13 more
-[08Jun2025 00:30:22.685] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file hyperremaster:star_shield_recipe from hyperremaster:recipes/star_shield_recipe.json
+[08Jun2025 01:51:24.851] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file hyperremaster:star_shield_recipe from hyperremaster:recipes/star_shield_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
@@ -368,7 +369,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	... 13 more
-[08Jun2025 00:30:23.045] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel
+[08Jun2025 01:51:24.988] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iceandfire:dread_shard'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -420,7 +421,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.123] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/enchantingtower/enchantingtower_basic_ars
+[08Jun2025 01:51:25.073] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/enchantingtower/enchantingtower_basic_ars
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:magebloom_fiber'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -472,7 +473,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.250] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel_throne
+[08Jun2025 01:51:25.197] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel_throne
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iceandfire:dread_shard'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -524,7 +525,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.302] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/haunted_manor/if_haunted_manor
+[08Jun2025 01:51:25.238] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/haunted_manor/if_haunted_manor
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iceandfire:silver_nugget'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -576,7 +577,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.334] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/labyrinth/if_labyrinth_tomb
+[08Jun2025 01:51:25.257] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/labyrinth/if_labyrinth_tomb
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iceandfire:sapphire_gem'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -628,7 +629,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.364] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel_library
+[08Jun2025 01:51:25.299] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/dread_citadel/dread_citadel_library
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iceandfire:dread_shard'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -680,7 +681,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.442] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower_treasure
+[08Jun2025 01:51:25.396] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower_treasure
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:ritual_burrowing'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -732,7 +733,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.518] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower_library
+[08Jun2025 01:51:25.479] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower_library
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:worn_notebook'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -784,7 +785,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.539] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/enchantingtower/enchantingtower_top_ars
+[08Jun2025 01:51:25.494] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/enchantingtower/enchantingtower_top_ars
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:scryer_scroll'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -836,7 +837,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.551] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower
+[08Jun2025 01:51:25.510] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:idas:chests/archmages_tower/archmages_tower
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:magebloom_fiber'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -888,223 +889,223 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[08Jun2025 00:30:23.739] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.740] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.754] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.754] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.755] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.761] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.763] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.763] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.765] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.766] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.767] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_compat as it's serializer returned null
-[08Jun2025 00:30:23.768] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.770] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.774] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.776] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.776] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.778] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[08Jun2025 00:30:23.782] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate_compat as it's serializer returned null
-[08Jun2025 00:30:23.784] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
-[08Jun2025 00:30:23.786] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.788] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.789] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.792] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.792] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.793] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.795] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.796] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.796] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.797] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.799] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.804] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.806] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.808] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_compat as it's serializer returned null
-[08Jun2025 00:30:23.809] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.810] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.812] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.813] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.813] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.816] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.816] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[08Jun2025 00:30:23.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[08Jun2025 00:30:23.817] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.821] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.822] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.824] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[08Jun2025 00:30:23.824] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.825] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.826] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.827] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_compat as it's serializer returned null
-[08Jun2025 00:30:23.828] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.829] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.829] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.832] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:compacting_coalblock) has more item inputs (12) than supported (9).
-[08Jun2025 00:30:23.832] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.833] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.833] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.835] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.835] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.836] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.837] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.838] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.840] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.841] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.842] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.844] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.844] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.845] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.845] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.847] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.847] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.851] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.852] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.852] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.855] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
-[08Jun2025 00:30:23.856] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.860] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.861] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.864] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.865] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.869] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.870] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.870] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.871] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe hyperremaster:stardomerecipe: com.google.gson.JsonSyntaxException: Unknown item 'hyperremaster:dome_of_stars'
-[08Jun2025 00:30:23.871] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.872] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.872] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board_compat as it's serializer returned null
-[08Jun2025 00:30:23.873] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.874] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.875] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.877] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.877] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.879] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.881] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:f_compacting_veridium) has more item inputs (17) than supported (9).
-[08Jun2025 00:30:23.881] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.882] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[08Jun2025 00:30:23.883] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.884] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.885] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.886] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.887] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
-[08Jun2025 00:30:23.888] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.890] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
-[08Jun2025 00:30:23.891] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.891] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.891] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs_compat as it's serializer returned null
-[08Jun2025 00:30:23.892] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.892] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.895] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.897] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.898] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.899] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.899] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.899] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.900] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.900] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.902] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[08Jun2025 00:30:23.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_compat as it's serializer returned null
-[08Jun2025 00:30:23.904] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.905] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.906] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.909] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.911] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.914] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.916] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.920] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.921] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.923] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.929] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.929] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe hyperremaster:flarestrikerecipe: com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
-[08Jun2025 00:30:23.929] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.931] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.931] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.932] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.934] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.935] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.936] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.937] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.937] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.937] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector: com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
-[08Jun2025 00:30:23.938] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.939] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.940] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.941] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.942] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.944] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.945] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.945] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
-[08Jun2025 00:30:23.946] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.947] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.947] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.948] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.948] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall_compat as it's serializer returned null
-[08Jun2025 00:30:23.949] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.949] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.950] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.951] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.952] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.952] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.952] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.953] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.956] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:23.956] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.957] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.957] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.958] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[08Jun2025 00:30:23.961] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.962] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.963] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.964] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.965] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.970] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.972] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[08Jun2025 00:30:23.973] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:compacting_tuff) has more item inputs (16) than supported (9).
-[08Jun2025 00:30:23.973] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.973] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.974] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[08Jun2025 00:30:23.977] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.977] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.978] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.978] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam_compat as it's serializer returned null
-[08Jun2025 00:30:23.979] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
-[08Jun2025 00:30:23.980] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.980] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.980] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
-[08Jun2025 00:30:23.980] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:23.981] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.984] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.986] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.986] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
-[08Jun2025 00:30:23.992] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[08Jun2025 00:30:23.993] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[08Jun2025 00:30:23.996] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.996] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.997] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.997] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:23.997] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
-[08Jun2025 00:30:23.998] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:23.998] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[08Jun2025 00:30:23.999] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:24.000] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:24.001] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:24.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[08Jun2025 00:30:24.004] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[08Jun2025 00:30:24.004] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[08Jun2025 00:30:24.005] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[08Jun2025 00:30:24.006] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:24.009] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[08Jun2025 00:30:24.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[08Jun2025 00:30:24.010] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[08Jun2025 00:30:24.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34 recipes
-[08Jun2025 00:30:24.091] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[08Jun2025 00:30:24.233] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 4108 recipe advancements
-[08Jun2025 00:30:24.244] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 614 advancements
-[08Jun2025 00:30:24.248] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[08Jun2025 00:30:24.253] [main/ERROR] [com.craisinlord.integrated_api.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:dread_citadel
+[08Jun2025 01:51:25.748] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.749] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.763] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.764] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.764] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.771] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.773] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.773] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.774] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.775] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.777] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_compat as it's serializer returned null
+[08Jun2025 01:51:25.778] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.780] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.783] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.785] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.786] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.788] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[08Jun2025 01:51:25.793] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate_compat as it's serializer returned null
+[08Jun2025 01:51:25.796] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
+[08Jun2025 01:51:25.797] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.800] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.800] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.806] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.808] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.809] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.810] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.811] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.811] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.812] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.813] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.816] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.817] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.818] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_compat as it's serializer returned null
+[08Jun2025 01:51:25.819] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.820] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.821] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.822] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.822] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.825] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.825] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[08Jun2025 01:51:25.826] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[08Jun2025 01:51:25.827] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.830] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.831] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.832] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[08Jun2025 01:51:25.833] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.833] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.834] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.835] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_compat as it's serializer returned null
+[08Jun2025 01:51:25.835] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.836] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.837] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.838] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:compacting_coalblock) has more item inputs (12) than supported (9).
+[08Jun2025 01:51:25.839] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.839] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.839] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.842] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.842] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.843] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.844] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.845] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.847] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.848] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.849] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.849] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.849] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.850] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.850] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.851] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.852] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.854] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.855] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.855] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.860] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[08Jun2025 01:51:25.862] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.865] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.866] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.867] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.868] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.872] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.872] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.872] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.874] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe hyperremaster:stardomerecipe: com.google.gson.JsonSyntaxException: Unknown item 'hyperremaster:dome_of_stars'
+[08Jun2025 01:51:25.875] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.876] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.876] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board_compat as it's serializer returned null
+[08Jun2025 01:51:25.876] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.877] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.878] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.879] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.879] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.880] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.882] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:f_compacting_veridium) has more item inputs (17) than supported (9).
+[08Jun2025 01:51:25.882] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.882] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[08Jun2025 01:51:25.883] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.883] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.885] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.885] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.886] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
+[08Jun2025 01:51:25.887] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.888] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[08Jun2025 01:51:25.888] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.888] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs_compat as it's serializer returned null
+[08Jun2025 01:51:25.889] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.889] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.892] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.893] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.894] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.895] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.895] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.896] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.896] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.897] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[08Jun2025 01:51:25.899] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_compat as it's serializer returned null
+[08Jun2025 01:51:25.900] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.901] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.902] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.903] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.905] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.906] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.908] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.910] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.910] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.911] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.916] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.917] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe hyperremaster:flarestrikerecipe: com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+[08Jun2025 01:51:25.917] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.919] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.919] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.920] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.922] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.922] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.923] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.924] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.924] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.925] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector: com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
+[08Jun2025 01:51:25.926] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.926] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.927] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.927] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.929] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.930] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.931] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.932] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
+[08Jun2025 01:51:25.932] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.933] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.934] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.934] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.935] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall_compat as it's serializer returned null
+[08Jun2025 01:51:25.935] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.936] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.936] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.937] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.938] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.939] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.939] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.939] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.942] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.944] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.945] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.945] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.946] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[08Jun2025 01:51:25.949] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.951] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.952] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.953] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.954] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.958] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.959] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[08Jun2025 01:51:25.960] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (create_ultimate_factory:compacting_tuff) has more item inputs (16) than supported (9).
+[08Jun2025 01:51:25.960] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.961] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.961] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.963] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[08Jun2025 01:51:25.963] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.963] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.964] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.964] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.965] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam_compat as it's serializer returned null
+[08Jun2025 01:51:25.965] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
+[08Jun2025 01:51:25.966] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.966] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.966] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[08Jun2025 01:51:25.966] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.967] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.970] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.972] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.972] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
+[08Jun2025 01:51:25.976] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[08Jun2025 01:51:25.977] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[08Jun2025 01:51:25.979] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.980] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.982] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.982] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.983] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
+[08Jun2025 01:51:25.983] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.984] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[08Jun2025 01:51:25.985] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.986] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.988] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:25.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[08Jun2025 01:51:25.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[08Jun2025 01:51:25.992] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[08Jun2025 01:51:25.995] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[08Jun2025 01:51:25.996] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.999] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[08Jun2025 01:51:25.999] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[08Jun2025 01:51:26.000] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[08Jun2025 01:51:26.005] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34 recipes
+[08Jun2025 01:51:26.098] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[08Jun2025 01:51:26.205] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 4108 recipe advancements
+[08Jun2025 01:51:26.216] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 614 advancements
+[08Jun2025 01:51:26.221] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[08Jun2025 01:51:26.227] [main/ERROR] [com.craisinlord.integrated_api.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:dread_citadel
 java.lang.Exception: Error: iceandfire:dread_lich is not a valid entity ID!
 	at com.craisinlord.integrated_api.misc.mobspawners.MobSpawnerObj.setEntityType(MobSpawnerObj.java:37) ~[integrated_api-1.5.3+1.20.1-forge.jar%23218!/:?]
 	at com.craisinlord.integrated_api.misc.mobspawners.MobSpawnerManager.lambda$apply$0(MobSpawnerManager.java:41) ~[integrated_api-1.5.3+1.20.1-forge.jar%23218!/:?]
@@ -1133,7 +1134,7 @@ java.lang.Exception: Error: iceandfire:dread_lich is not a valid entity ID!
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[08Jun2025 00:30:24.256] [main/ERROR] [com.craisinlord.integrated_api.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:archmages_tower
+[08Jun2025 01:51:26.229] [main/ERROR] [com.craisinlord.integrated_api.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:archmages_tower
 java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
 	at com.craisinlord.integrated_api.misc.mobspawners.MobSpawnerObj.setEntityType(MobSpawnerObj.java:37) ~[integrated_api-1.5.3+1.20.1-forge.jar%23218!/:?]
 	at com.craisinlord.integrated_api.misc.mobspawners.MobSpawnerManager.lambda$apply$0(MobSpawnerManager.java:41) ~[integrated_api-1.5.3+1.20.1-forge.jar%23218!/:?]
@@ -1162,90 +1163,84 @@ java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[08Jun2025 00:30:24.274] [main/INFO] [Dungeon Crawl/]: Loading data...
-[08Jun2025 00:30:24.646] [main/INFO] [Dungeon Crawl/]: Done.
-[08Jun2025 00:30:24.647] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[08Jun2025 00:30:24.685] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[08Jun2025 00:30:24.700] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[08Jun2025 00:30:24.703] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
-[08Jun2025 00:30:24.703] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
-[08Jun2025 00:30:24.703] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
-[08Jun2025 00:30:24.703] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
-[08Jun2025 00:30:24.704] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
-[08Jun2025 00:30:24.704] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
-[08Jun2025 00:30:24.704] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 2 patches
-[08Jun2025 00:30:24.704] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
-[08Jun2025 00:30:24.704] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
-[08Jun2025 00:30:24.705] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
-[08Jun2025 00:30:24.710] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[08Jun2025 00:30:24.735] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: idas:has_structure/bopmahogany_biomes, idas:has_structure/bygmahogany_biomes, idas:has_structure/bygredwood_biomes
-[08Jun2025 00:30:24.821] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[08Jun2025 00:30:24.918] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
-[08Jun2025 00:30:25.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[08Jun2025 00:30:25.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Jun2025 00:30:25.320] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Jun2025 00:30:25.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Jun2025 00:30:25.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Jun2025 00:30:25.584] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Jun2025 00:30:25.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Jun2025 00:30:25.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Jun2025 00:30:25.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Jun2025 00:30:25.672] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Jun2025 00:30:25.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[08Jun2025 00:30:25.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
-[08Jun2025 00:30:25.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[08Jun2025 00:30:25.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[08Jun2025 00:30:25.879] [Server thread/INFO] [luckperms/]: Loading configuration...
-[08Jun2025 00:30:26.054] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[08Jun2025 00:30:26.391] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[08Jun2025 00:30:26.441] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[08Jun2025 00:30:26.528] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 13496ms)
-[08Jun2025 00:30:26.539] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[08Jun2025 00:30:26.540] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[08Jun2025 00:30:26.540] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[08Jun2025 00:30:26.541] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[08Jun2025 00:30:26.541] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[08Jun2025 00:30:26.550] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[08Jun2025 00:30:26.551] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[08Jun2025 00:30:26.551] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[08Jun2025 00:30:26.552] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[08Jun2025 00:30:26.552] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[08Jun2025 00:30:27.788] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[08Jun2025 00:30:27.789] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[08Jun2025 00:30:27.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Jun2025 00:30:29.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Jun2025 00:30:32.138] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.143] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.144] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.144] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.144] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.145] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.145] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 00:30:32.613] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[08Jun2025 00:30:33.117] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[08Jun2025 00:30:33.613] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[08Jun2025 00:30:34.113] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[08Jun2025 00:30:34.136] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5024 ms
-[08Jun2025 00:30:34.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.446s)! For help, type "help"
-[08Jun2025 00:30:34.543] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[08Jun2025 00:30:34.548] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
-[08Jun2025 00:30:34.631] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 53200 bytes (in 6 string chunks with the size of 10000)
-[08Jun2025 00:30:34.805] [Server thread/WARN] [ModernFix/]: Dedicated server took 60.585 seconds to load
-[08Jun2025 00:31:07.011] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:43699] logged in with entity id 667 at (-422.8115932931626, 112.0, -51.71525766459899)
-[08Jun2025 00:31:07.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
-[08Jun2025 00:31:07.230] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
-[08Jun2025 00:31:13.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6529ms or 130 ticks behind
-[08Jun2025 00:31:23.848] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
-[08Jun2025 00:31:29.466] [Worker-Main-3/INFO] [ModernFix/]: Instantiating Mojang DFU
-[08Jun2025 00:32:39.775] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
-[08Jun2025 00:32:39.776] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
-[08Jun2025 00:32:57.549] [Worker-Main-2/WARN] [lithostitched/]: Non-existent template pool reference: kaisyn:village/meadow_swiss/villagers
-[08Jun2025 00:33:00.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Ashes 'n Bones]
-[08Jun2025 00:33:14.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Enchanting Tower]
-[08Jun2025 00:33:18.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
-[08Jun2025 00:35:28.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
-[08Jun2025 00:35:35.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
-[08Jun2025 00:35:47.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
-[08Jun2025 00:36:55.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Magery]
-[08Jun2025 00:37:08.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
-[08Jun2025 00:38:28.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[08Jun2025 01:51:26.247] [main/INFO] [Dungeon Crawl/]: Loading data...
+[08Jun2025 01:51:26.792] [main/INFO] [Dungeon Crawl/]: Done.
+[08Jun2025 01:51:26.793] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[08Jun2025 01:51:26.873] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[08Jun2025 01:51:26.887] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[08Jun2025 01:51:26.890] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[08Jun2025 01:51:26.890] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[08Jun2025 01:51:26.890] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[08Jun2025 01:51:26.890] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[08Jun2025 01:51:26.891] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
+[08Jun2025 01:51:26.891] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[08Jun2025 01:51:26.891] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 2 patches
+[08Jun2025 01:51:26.891] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[08Jun2025 01:51:26.892] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[08Jun2025 01:51:26.892] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[08Jun2025 01:51:26.899] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[08Jun2025 01:51:26.918] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: idas:has_structure/bopmahogany_biomes, idas:has_structure/bygmahogany_biomes, idas:has_structure/bygredwood_biomes
+[08Jun2025 01:51:27.048] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[08Jun2025 01:51:27.167] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[08Jun2025 01:51:27.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Jun2025 01:51:27.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Jun2025 01:51:27.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Jun2025 01:51:27.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Jun2025 01:51:27.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Jun2025 01:51:27.618] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Jun2025 01:51:27.691] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Jun2025 01:51:27.691] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Jun2025 01:51:27.692] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Jun2025 01:51:27.692] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Jun2025 01:51:27.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[08Jun2025 01:51:27.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
+[08Jun2025 01:51:27.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[08Jun2025 01:51:27.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[08Jun2025 01:51:27.887] [Server thread/INFO] [luckperms/]: Loading configuration...
+[08Jun2025 01:51:28.056] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[08Jun2025 01:51:28.395] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[08Jun2025 01:51:28.452] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[08Jun2025 01:51:28.529] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 12976ms)
+[08Jun2025 01:51:28.534] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[08Jun2025 01:51:28.534] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[08Jun2025 01:51:28.534] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[08Jun2025 01:51:28.535] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[08Jun2025 01:51:28.535] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[08Jun2025 01:51:28.536] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[08Jun2025 01:51:28.536] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[08Jun2025 01:51:28.537] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[08Jun2025 01:51:28.537] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[08Jun2025 01:51:28.537] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[08Jun2025 01:51:28.747] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[08Jun2025 01:51:29.665] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08Jun2025 01:51:29.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Jun2025 01:51:30.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Jun2025 01:51:33.569] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.570] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.570] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.570] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.571] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.571] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 01:51:33.942] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[08Jun2025 01:51:34.445] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[08Jun2025 01:51:34.941] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[08Jun2025 01:51:35.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[08Jun2025 01:51:35.487] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4547 ms
+[08Jun2025 01:51:35.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.779s)! For help, type "help"
+[08Jun2025 01:51:35.557] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[08Jun2025 01:51:35.560] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[08Jun2025 01:51:35.627] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 53200 bytes (in 6 string chunks with the size of 10000)
+[08Jun2025 01:51:35.888] [Server thread/WARN] [ModernFix/]: Dedicated server took 60.387 seconds to load
+[08Jun2025 01:51:57.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:38049] logged in with entity id 666 at (116.21362540845463, 148.0, 823.3144817034854)
+[08Jun2025 01:51:57.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
+[08Jun2025 01:51:57.871] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
+[08Jun2025 01:52:03.654] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5911ms or 118 ticks behind
+[08Jun2025 01:52:05.096] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
+[08Jun2025 01:52:57.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Timed out
+[08Jun2025 01:52:57.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
+[08Jun2025 01:58:18.420] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ChupetinXD[/127.115.103.227:52575] logged in with entity id 1129 at (136.72165553941676, 148.24918707874468, 846.6789333628633)
+[08Jun2025 01:58:18.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD joined the game
+[08Jun2025 01:58:18.456] [Server thread/INFO] [Jade/]: Syncing config to ChupetinXD (560d7ed8-5a57-3792-966d-7f0718b3c689)
+[08Jun2025 01:58:19.535] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
+[08Jun2025 01:58:41.903] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Disconnected
+[08Jun2025 01:58:41.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
