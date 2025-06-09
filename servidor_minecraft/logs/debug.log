@@ -19607,3 +19607,9 @@ java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
 [09Jun2025 05:45:50.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe joined the game
 [09Jun2025 05:45:50.369] [Server thread/DEBUG] [com.hlysine.create_connected.CreateConnected/]: Sync Config: Sending server config to Jorgepwe
 [09Jun2025 05:45:50.369] [Server thread/INFO] [Jade/]: Syncing config to Jorgepwe (d5cb90a3-5321-3e9b-8658-6318f3bddd1a)
+[09Jun2025 05:47:48.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorgepwe lost connection: Disconnected
+[09Jun2025 05:47:48.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe left the game
+[09Jun2025 05:47:58.200] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Jun2025 05:47:58.216] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09Jun2025 05:52:58.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Jun2025 05:52:58.212] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
