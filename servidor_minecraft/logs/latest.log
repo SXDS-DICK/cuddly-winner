@@ -1,47 +1,31 @@
-[21:51:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:51:07] [ServerMain/INFO]: No existing world data, creating new world
-[21:51:08] [ServerMain/INFO]: Loaded 1290 recipes
-[21:51:09] [ServerMain/INFO]: Loaded 1399 advancements
-[21:51:09] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[21:51:09] [Server thread/INFO]: Loading properties
-[21:51:09] [Server thread/INFO]: Default game type: SURVIVAL
-[21:51:09] [Server thread/INFO]: Generating keypair
-[21:51:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:51:10] [Server thread/INFO]: Using epoll channel type
-[21:51:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:51:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:51:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:51:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:51:10] [Server thread/INFO]: Preparing level "world"
-[21:51:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:51:17] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:51:18] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[21:51:18] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[21:51:19] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[21:51:19] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:51:20] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[21:51:20] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[21:51:21] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[21:51:21] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[21:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[21:51:22] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[21:51:23] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[21:51:23] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[21:51:24] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[21:51:24] [Server thread/INFO]: Time elapsed: 6875 ms
-[21:51:24] [Server thread/INFO]: Done (14.496s)! For help, type "help"
-[21:51:45] [Server thread/INFO]: ChupetinXD[/127.115.103.227:35101] logged in with entity id 19 at (24.5, 72.0, -161.5)
-[21:51:45] [Server thread/INFO]: ChupetinXD joined the game
-[21:52:47] [Server thread/INFO]: Made ChupetinXD a server operator
-[21:52:49] [Server thread/INFO]: [ChupetinXD: Set own game mode to Creative Mode]
-[21:58:30] [Server thread/INFO]: ChupetinXD lost connection: Timed out
-[21:58:30] [Server thread/INFO]: ChupetinXD left the game
-[21:58:30] [Server thread/WARN]: handleDisconnection() called twice
-[21:58:40] [Server thread/INFO]: ChupetinXD[/127.115.103.227:35695] logged in with entity id 2108 at (86.36270736710446, 71.0, -501.8329564949928)
-[21:58:40] [Server thread/INFO]: ChupetinXD joined the game
-[21:59:49] [Server thread/INFO]: ChupetinXD lost connection: Disconnected
-[21:59:49] [Server thread/INFO]: ChupetinXD left the game
-[22:40:41] [Server thread/INFO]: ChupetinXD[/127.115.103.227:59097] logged in with entity id 2565 at (39.01679773363577, 70.0, -479.0405285646678)
-[22:40:41] [Server thread/INFO]: ChupetinXD joined the game
-[22:42:03] [Server thread/INFO]: ChupetinXD lost connection: Disconnected
-[22:42:03] [Server thread/INFO]: ChupetinXD left the game
+[00:06:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:06:02] [ServerMain/INFO]: Loaded 1373 recipes
+[00:06:02] [ServerMain/INFO]: Loaded 1484 advancements
+[00:06:02] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[00:06:02] [Server thread/INFO]: Loading properties
+[00:06:02] [Server thread/INFO]: Default game type: SURVIVAL
+[00:06:02] [Server thread/INFO]: Generating keypair
+[00:06:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:06:03] [Server thread/INFO]: Using epoll channel type
+[00:06:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:06:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:06:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:06:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:06:03] [Server thread/INFO]: Preparing level "world"
+[00:06:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:06:06] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[00:06:06] [Server thread/INFO]: Time elapsed: 3140 ms
+[00:06:06] [Server thread/INFO]: Done (3.430s)! For help, type "help"
+[00:07:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:07:14] [Server thread/INFO]: ChupetinXD[/127.115.103.227:53133] logged in with entity id 10 at (40.560375687180475, 70.0, -480.2500295397035)
+[00:07:14] [Server thread/INFO]: ChupetinXD joined the game
+[00:07:31] [Server thread/INFO]: Set the time to 1000
+[00:14:43] [Server thread/INFO]: ChupetinXD lost connection: Disconnected
+[00:14:43] [Server thread/INFO]: ChupetinXD left the game
+[00:15:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
