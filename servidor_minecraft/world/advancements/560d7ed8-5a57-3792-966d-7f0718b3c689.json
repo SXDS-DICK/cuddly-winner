@@ -1,156 +1,164 @@
 {
-  "minecraft:adventure/adventuring_time": {
+  "lootr:1chest": {
     "criteria": {
-      "minecraft:sparse_jungle": "2025-06-08 21:51:45 +0000",
-      "minecraft:jungle": "2025-06-08 21:56:44 +0000",
-      "minecraft:river": "2025-06-08 21:56:04 +0000",
-      "minecraft:stony_shore": "2025-06-08 21:53:44 +0000"
+      "opened_chest": "2025-06-09 05:06:47 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:ambitious_explorer": {
+    "criteria": {
+      "entered_tower_of_the_undead": "2025-06-09 05:01:17 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/crafting_table": {
+  "idas:idas_root": {
     "criteria": {
-      "unlock_right_away": "2025-06-08 21:51:45 +0000"
+      "always": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:story/obtain_armor": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "iron_leggings": "2025-06-09 05:03:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "woodland": "2025-06-09 04:57:39 +0000",
+      "lush_savanna": "2025-06-09 05:08:22 +0000",
+      "lush_desert": "2025-06-09 05:05:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-09 05:03:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "lootr:social": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "opened_barrel": "2025-06-09 05:06:12 +0000",
+      "opened_chest": "2025-06-09 05:06:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2025-06-09 05:09:57 +0000",
+      "minecraft:zombie": "2025-06-09 05:03:34 +0000"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:root": {
+    "criteria": {
+      "entered_tower_of_the_undead": "2025-06-09 05:01:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
+  "minecraft:story/iron_tools": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "iron_pickaxe": "2025-06-09 05:04:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "bossominium:loot_bosses_a": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "loot_bosses_a": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "lootr:root": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "always_true": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "minecraft:zombie": "2025-06-09 05:03:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "minecraft:badlands": "2025-06-09 05:05:45 +0000",
+      "minecraft:stony_shore": "2025-06-09 05:08:58 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2025-06-09 05:04:40 +0000"
+    },
+    "done": false
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2025-06-09 04:57:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "in_water": "2025-06-08 21:54:02 +0000"
+      "get_stone": "2025-06-09 05:02:00 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "consumed_item": "2025-06-09 05:04:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "create:root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "0": "2025-06-09 04:57:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+  "minecraft:story/upgrade_tools": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "stone_pickaxe": "2025-06-09 05:02:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+  "lootr:1barrel": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "opened_barrel": "2025-06-09 05:06:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "tombstone:adventure/root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "auto": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
+  "irons_spellbooks:grant_patchouli": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "tick": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+  "biomesoplenty:biomesoplenty/root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "woodland": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_button": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "crafting_table": "2025-06-09 05:01:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+  "repurposed_structures:root": {
     "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
+      "always": "2025-06-09 04:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab": {
-    "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone": {
-    "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-06-08 21:54:06 +0000"
-    },
-    "done": true
-  },
-  "DataVersion": 4325
+  "DataVersion": 3465
 }
