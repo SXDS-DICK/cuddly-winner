@@ -4862,3 +4862,16 @@ java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
 [09Jun2025 05:33:37.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Suit Up]
 [09Jun2025 05:35:27.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Barrel Booty]
 [09Jun2025 05:36:13.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Diamonds!]
+[09Jun2025 05:37:16.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Monster Hunter]
+[09Jun2025 05:37:19.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Not Today, Thank You]
+[09Jun2025 05:37:30.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Disme A Dozen]
+[09Jun2025 05:39:17.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Stone Age]
+[09Jun2025 05:41:40.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Ahoy Captain]
+[09Jun2025 05:41:42.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Knowledge of Death]
+[09Jun2025 05:41:42.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Ambush]
+[09Jun2025 05:45:45.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorgepwe moved too quickly! 9.984203955590488,-0.04353562014750878,-1.8120705316728731
+[09Jun2025 05:45:45.937] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jorgepwe lost connection: Disconnected
+[09Jun2025 05:45:45.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe left the game
+[09Jun2025 05:45:50.354] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jorgepwe[/127.192.51.244:55329] logged in with entity id 17006 at (196.76711856655356, 78.41999998688698, 307.55871892714265)
+[09Jun2025 05:45:50.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe joined the game
+[09Jun2025 05:45:50.369] [Server thread/INFO] [Jade/]: Syncing config to Jorgepwe (d5cb90a3-5321-3e9b-8658-6318f3bddd1a)
