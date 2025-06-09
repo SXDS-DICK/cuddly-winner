@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-06-09 05:31:06 +0000"
+    },
+    "done": true
+  },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_tower_of_the_undead": "2025-06-09 05:01:17 +0000"
@@ -26,10 +32,19 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "woodland": "2025-06-09 04:57:39 +0000",
+      "scrubland": "2025-06-09 05:23:43 +0000",
       "lush_savanna": "2025-06-09 05:08:22 +0000",
-      "lush_desert": "2025-06-09 05:05:29 +0000"
+      "mediterranean_forest": "2025-06-09 05:23:44 +0000",
+      "lush_desert": "2025-06-09 05:05:29 +0000",
+      "rainforest": "2025-06-09 05:18:11 +0000"
     },
     "done": false
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-09 05:26:48 +0000"
+    },
+    "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
@@ -54,6 +69,12 @@
   "dungeons_enhanced:root": {
     "criteria": {
       "entered_tower_of_the_undead": "2025-06-09 05:01:17 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2025-06-09 05:30:40 +0000"
     },
     "done": true
   },
@@ -84,9 +105,19 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2025-06-09 05:05:45 +0000",
-      "minecraft:stony_shore": "2025-06-09 05:08:58 +0000"
+      "minecraft:stony_peaks": "2025-06-09 05:17:52 +0000",
+      "minecraft:sparse_jungle": "2025-06-09 05:13:42 +0000",
+      "minecraft:stony_shore": "2025-06-09 05:08:58 +0000",
+      "minecraft:forest": "2025-06-09 05:17:49 +0000",
+      "minecraft:jungle": "2025-06-09 05:18:09 +0000"
     },
     "done": false
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-06-09 05:14:23 +0000"
+    },
+    "done": true
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
@@ -109,6 +140,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-06-09 05:04:40 +0000"
+    },
+    "done": true
+  },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2025-06-09 05:26:31 +0000"
     },
     "done": true
   },
@@ -151,6 +188,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-06-09 05:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-09 05:25:00 +0000"
     },
     "done": true
   },

@@ -1,0 +1,89 @@
+{
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-06-09 05:32:45 +0000"
+    },
+    "done": true
+  },
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2025-06-09 05:30:59 +0000",
+      "scrubland": "2025-06-09 05:32:20 +0000",
+      "mediterranean_forest": "2025-06-09 05:32:14 +0000"
+    },
+    "done": false
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-06-09 05:32:45 +0000"
+    },
+    "done": false
+  },
+  "bossominium:loot_bosses_a": {
+    "criteria": {
+      "loot_bosses_a": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2025-06-09 05:31:59 +0000"
+    },
+    "done": false
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "woodland": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-09 05:32:53 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2025-06-09 05:30:59 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

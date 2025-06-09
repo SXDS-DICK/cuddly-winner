@@ -4821,3 +4821,44 @@ java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
 [09Jun2025 05:14:41.075] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
 [09Jun2025 05:15:08.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
 [09Jun2025 05:15:14.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[09Jun2025 05:15:46.312] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: create_easy_structures:undergroundtrain_station
+[09Jun2025 05:15:58.747] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: create_easy_structures:undergroundtrain_station
+[09Jun2025 05:15:58.748] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: create_easy_structures:undergroundtrain_station
+[09Jun2025 05:15:58.750] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: create_easy_structures:undergroundtrain_station
+[09Jun2025 05:15:58.751] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: create_easy_structures:undergroundtrain_station
+[09Jun2025 05:16:08.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD moved too quickly! -0.5928203686357278,3.2578585658599764,9.925459504048376
+[09Jun2025 05:16:08.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23863ms or 477 ticks behind
+[09Jun2025 05:19:37.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[09Jun2025 05:24:09.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Creative Mode]
+[09Jun2025 05:24:26.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ChupetinXD: Set own game mode to Survival Mode]
+[09Jun2025 05:25:00.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Acquire Hardware]
+[09Jun2025 05:25:45.741] [pool-8-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / ctov:medium/village_swamp], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_swamp], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_savanna_plateau], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_flower_forest], ResourceKey[minecraft:worldgen/structure / ctov:small/village_taiga], ResourceKey[minecraft:worldgen/structure / ctov:small/village_snowy_igloo], ResourceKey[minecraft:worldgen/structure / idas:bearclaw_inn], ResourceKey[minecraft:worldgen/structure / valhelsia_structures:tower_ruin]] from pos BlockPos{x=363, y=87, z=117}
+[09Jun2025 05:25:46.420] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/swamp
+[09Jun2025 05:25:46.506] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
+[09Jun2025 05:25:46.518] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
+[09Jun2025 05:25:49.887] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4007ms or 80 ticks behind
+[09Jun2025 05:25:49.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD moved too quickly! 4.0070705957426185,-2.747796659746271,9.000048981041857
+[09Jun2025 05:25:51.433] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/swamp
+[09Jun2025 05:25:51.439] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
+[09Jun2025 05:25:51.439] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
+[09Jun2025 05:25:56.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD moved too quickly! 2.783023709324283,-3.0013359791121417,9.141276198139593
+[09Jun2025 05:26:31.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Disme A Dozen]
+[09Jun2025 05:26:48.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD has made the advancement [Hot Stuff]
+[09Jun2025 05:30:58.841] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jorgepwe[/127.192.51.244:46979] logged in with entity id 11955 at (27.5, 128.0, -25.5)
+[09Jun2025 05:30:58.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe joined the game
+[09Jun2025 05:30:59.037] [Server thread/INFO] [Jade/]: Syncing config to Jorgepwe (d5cb90a3-5321-3e9b-8658-6318f3bddd1a)
+[09Jun2025 05:31:29.531] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=26, y=129, z=-27}
+[09Jun2025 05:31:29.795] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=25, y=129, z=-26}
+[09Jun2025 05:31:37.296] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=28, y=126, z=-31}
+[09Jun2025 05:31:37.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=28, y=125, z=-30}
+[09Jun2025 05:31:46.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jorgepwe> vaya lag
+[09Jun2025 05:32:45.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement ['X' Marks the Spot]
+[09Jun2025 05:32:53.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Acquire Hardware]
+[09Jun2025 05:33:18.295] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD was kicked for floating too long!
+[09Jun2025 05:33:18.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ChupetinXD lost connection: Flying is not enabled on this server
+[09Jun2025 05:33:18.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ChupetinXD left the game
+[09Jun2025 05:33:18.347] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[09Jun2025 05:33:33.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Isn't It Iron Pick]
+[09Jun2025 05:33:37.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Suit Up]
+[09Jun2025 05:35:27.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Barrel Booty]
+[09Jun2025 05:36:13.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jorgepwe has made the advancement [Diamonds!]
